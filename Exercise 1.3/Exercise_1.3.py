@@ -40,9 +40,3 @@ print("Ingredients List:")
 for ingredient in ingredients_list:
     print(ingredient)
     
-
-destination = input("Where would you like to travel to?")
-destination_list = ["Hawaii", "Paris", "Bora Bora"]
-if destination in destination_list:
-    print("Enjoy your stay in! " + destination)
-else: print("Oops, that destination is not currently available.")
